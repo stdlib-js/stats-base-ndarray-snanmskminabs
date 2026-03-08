@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/stats-base-ndarray-snanmskminabs",
   "version": "0.0.0",
-  "description": "Calculate the minimum absolute value of a one-dimensional single-precision floating-point ndarray according to a mask, ignoring NaN values.",
+  "description": "Compute the minimum absolute value of a one-dimensional single-precision floating-point ndarray according to a mask, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -48,6 +48,7 @@
     "@stdlib/array-float32": "^0.2.3",
     "@stdlib/array-uint8": "^0.2.3",
     "@stdlib/math-base-assert-is-nanf": "^0.2.3",
+    "@stdlib/math-base-assert-is-positive-zerof": "^0.1.4",
     "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-to-array": "^0.2.2",
